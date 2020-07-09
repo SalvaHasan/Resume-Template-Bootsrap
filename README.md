@@ -1,2 +1,2 @@
-# Resume-Template-
+# Resume-Template-Bootstrap
 Bootstrap
