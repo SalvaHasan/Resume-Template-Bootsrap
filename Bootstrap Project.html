@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Staatliches&display=swap" rel="stylesheet">
+  
+  <style>
+    body {
+      margin: 0;
+      padding: 0; 
+      font-family: 'Oswald';
+    }
+    #header{
+        position: fixed;    
+        top:0;
+        left: 0;
+        width: 100%;
+        z-index: 0;
+    } 
+    #header nav{
+        height: 100vh;
+    }
+    #header .nav-link{
+        border-bottom: 1px solid grey;
+        margin-bottom: 25px;
+    }
+    #header .nav-link:hover{
+        color: grey !important;
+    }
+    #background{
+        background-image: url(https://cdn.pixabay.com/photo/2017/06/21/07/33/background-2426328_1280.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+    #introduction{  
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    #DisplayPic{
+        background-image: url(https://images.assetsdelivery.com/compings_v2/apoev/apoev1806/apoev180600152.jpg);
+        background-size: cover;
+        margin: auto;
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+    }
+    .jumbotron {
+    padding-top: 23px;
+    padding-bottom: 23px;
+    margin-bottom: 12px;
+    }    
+
+  </style>
+
+  <title>Salva Hasan Project</title>
+</head>
+  
+
+<body>
+<!--------------------------------------NAVIGATION BAR-------------------------------------->    
+<header id="header">
+    <div class="row m-0">
+        <div class="col-3" style="background-color:black;">
+            <nav>
+
+                <div class="d-flex flex-column mt-5 pt-5 px-4 text-uppercase" style="letter-spacing: 2px; font-size: 16px;">
+                    <a href="#home" class="nav-item nav-link text-light mt-5 active">Home</a>
+                    <a href="#about" class="nav-item nav-link text-light">About Me</a>
+                    <a href="#skill" class="nav-item nav-link text-light">Skills</a>
+                    <a href="#projects" class="nav-item nav-link text-light">Projects</a>
+                    <a href="#contact" class="nav-item nav-link text-light mb-5">Contact</a>
+                    
+
+
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main id="main">
+    <div class="row m-0">
+    <div class="col-9 offset-3 px-0">
+
+
+<!--------------------------------------HOME PAGE-------------------------------------->
+        <section id="home">
+            <div id="background" class="position-relative">
+                <div id="introduction" class="text-center m-0 position-absolute">
+                    <div id="DisplayPic" class="mb-4"></div>
+                    <h1 class="text-white font-weight-bold text-uppercase " style="font-size: 50px; letter-spacing: 3px;">Salva Hasan</h1>
+                    <h4 class="text-white text-uppercase">I am a <span id="typing"></span></h4>
+                    
+                </div>
+            </div>      
+        </section>
+
+
+<!--------------------------------------ABOUT ME PAGE-------------------------------------->
+        <section id="about" class="px-4 my-5">
+            <div class="py-4">
+                <h1 class="text-uppercase font-weight-bold">About me</h1>
+            </div>
+            
+
+            <div class="jumbotron">
+                <h3 class="display-6 font-weight-bold">Objective</h3>
+                <hr>
+                <p class="font-weight-bold" style="letter-spacing: 0.5px;">A highly motivated individual with leadership and interpersonal communication skills, 
+                    seeking an opportunity to leverage my talents as an entry level computer engineer at your company. 
+                    I have the follow-through and positive attitude that will allow me to achieve the targets set by your company.
+                </p>
+                
+            </div>
+
+            <div class="jumbotron">
+                <h3 class="display-6 font-weight-bold">Education</h3>
+                <hr>
+                <p class="font-weight-bold" style="letter-spacing: 0.5px;">Bachelor of Computer Engineering, University of Engineering and Technology, Peshawar
+                    <small class="text-muted"> ―AUG 2020</small>
+                </p>
+                <p class="font-weight-bold" style="letter-spacing: 0.5px;">HSSC Pre-Engineering, Jinnah College for Women, Peshawar
+                    <small class="text-muted"> ―AUG 2016</small>
+                </p>
+                
+            </div>
+
+            <div class="jumbotron">
+                <h3 class="display-6 font-weight-bold">Work Experience</h3>
+                <hr>
+                <p class="font-weight-bold" style="letter-spacing: 0.5px;">Internship at 
+                    Pakistan Telecommunication Company Limited <span class="text-muted">(PTCL)</span> 
+                    Peshawar, Pakistan
+                    <small class="text-muted"> ―AUG-SEP 2019</small>
+                </p>
+                
+            </div>
+            <br>
+        </section> 
+
+
+<!--------------------------------------SKILLS PAGE-------------------------------------->
+        <section id="skill" class="px-4 my-5">
+            <div class="py-4">
+                <h1 class="text-uppercase font-weight-bold">My Skills</h1>
+            </div>
+            <div class="row">
+                <div class="col px-5">
+                    <h3 class="display-6 font-weight-bold mb-5">Programming & Scripting Languages</h3>
+                    
+                    <p class="font-weight-bold">C/C++</p>
+                    <div class="progress mb-4" style="height: 10px;">
+                        <div class="progress-bar bg-dark progress-bar-striped progress-bar-animated" style="width: 75%;"></div>
+                    </div>
+                    
+                    <p class="font-weight-bold" >MATLAB</p>
+                    <div class="progress mb-4" style="height: 10px;">
+                        <div class="progress-bar bg-dark progress-bar-striped progress-bar-animated" style="width: 75%;"></div>
+                    </div>
+                    
+                    <p class="font-weight-bold" >Assembly</p>
+                    <div class="progress mb-4" style="height: 10px;">
+                        <div class="progress-bar bg-dark progress-bar-striped progress-bar-animated" style="width: 70%;"></div>
+                    </div>
+                    
+                    <p class="font-weight-bold" >Python</p>
+                    <div class="progress mb-4" style="height: 10px;">
+                        <div class="progress-bar bg-dark progress-bar-striped progress-bar-animated" style="width: 65%;"></div>
+                    </div>
+                    
+                    <p class="font-weight-bold">PHP</p>
+                    <div class="progress mb-4" style="height: 10px;">
+                        <div class="progress-bar bg-dark progress-bar-striped progress-bar-animated" style="width: 60%;"></div>
+                    </div>
+                    
+                    <p class="font-weight-bold">JavaScript</p>
+                    <div class="progress mb-4" style="height: 10px;">
+                        <div class="progress-bar bg-dark progress-bar-striped progress-bar-animated" style="width: 50%;"></div>
+                    </div>
+                    
+                </div>
+                <div class="col px-5">
+                    <h3 class="display-6 font-weight-bold mb-3">Softwares</h3>
+                    <ul class="list-group list-group-flush font-weight-bold mb-4">
+                        <li class="list-group-item">Proteus</li>
+                        <li class="list-group-item">Keil</li>
+                        <li class="list-group-item">Ms Word</li>
+                        <li class="list-group-item">Ms Excel</li>
+                        <li class="list-group-item">Ms PowerPoint</li>
+                    </ul>
+                    <h3 class="display-6 font-weight-bold mb-3">Languages</h3>
+                    <ul class="list-group list-group-flush font-weight-bold mb-4">
+                        <li class="list-group-item">English</li>
+                        <li class="list-group-item">Pashto</li>
+                        <li class="list-group-item">Urdu</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+<!--------------------------------------PROJECTS PAGE-------------------------------------->
+
+        <section id="projects" class="px-4 my-5">
+            <div class="py-4">
+                <h1 class="text-uppercase font-weight-bold">My Academic Projects</h1>
+            </div>
+            
+            <div id="accordion">
+                
+                <div class="card mb-4">
+                    <div class="card-header">
+                      <h4 class="display-6 font-weight-bold">
+                        <a href="#c1" data-toggle="collapse" data-parent="#accordion" style="color: black;">
+                        Real Estate Management System
+                        </a>
+                      </h4>
+                    </div>
+            
+                    <div id="c1" class="collapse show">
+                      <div class="card-body"> 
+                        <p class="card-text font-weight-bold" style="letter-spacing: 0.5px;">This is a web-based application. This web application allows clients to post property for sale or 
+                            to put it up for rent as well as easily search and select property to buy or rent. 
+                            This portal also provides the clients with all the necessary information on the selected property and contact details of its dealers. 
+                            This project was developed using Laravel framework and MySQL. </p>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="card mb-4">
+                    <div class="card-header">
+                      <h4 class="display-6 font-weight-bold">
+                        <a href="#c2" data-toggle="collapse" data-parent="#accordion" style="color: black;">
+                        Projectile Motion Calculator
+                        </a>
+                      </h4>
+                    </div>
+            
+                    <div id="c2" class="collapse show">
+                      <div class="card-body"> 
+                        <p class="card-text font-weight-bold" style="letter-spacing: 0.5px;">This is a console-based project. It calculates the maximum height 
+                            and the distance to be travelled by a projectile and displays its complete trajectory in the form of 
+                            a graph for the user. This project is done using MATLAB. </p>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                <div class="card mb-4">
+                    <div class="card-header">
+                      <h4 class="display-6 font-weight-bold">
+                        <a href="#c3" data-toggle="collapse" data-parent="#accordion" style="color: black;">
+                          Image Editor
+                        </a>
+                      </h4>
+                    </div>
+            
+                    <div id="c3" class="collapse">
+                      <div class="card-body"> 
+                        <p class="card-text font-weight-bold" style="letter-spacing: 0.5px;">This is a GUI based project. It has features like cropping, resizing and inverting. 
+                            It can also be used to find out about the number of pixels in an image. 
+                            The language used for this project is C++, for the graphical interface SFML is used. </p>
+                      </div>
+                    </div>
+                  </div>
+
+                <div class="card mb-4">
+                    <div class="card-header">
+                      <h4 class="display-6 font-weight-bold">
+                        <a href="#c4" data-toggle="collapse" data-parent="#accordion" style="color: black;">
+                        Traffic Detecting Street Lights using Sensors
+                        </a>
+                      </h4>
+                    </div>
+            
+                    <div id="c4" class="collapse">
+                      <div class="card-body"> 
+                        <p class="card-text font-weight-bold" style="letter-spacing: 0.5px;">
+                        This is a hardware project. The main purpose of this project is to save electricity consumption 
+                        during late hours when there is less traffic. In the project the street lights have been equipped with 
+                        InfraRed sensors which detects traffic and turns on the street lights only when it detects a moving vehicle or even a pedestrian. </p>
+                      </div>
+                    </div>
+                </div>
+
+
+            </div>
+          
+
+        </section>
+
+<!--------------------------------------CONTACT PAGE-------------------------------------->
+        <section id="contact" class="px-4 my-5">
+            <div class="py-4">
+                <h1 class="text-uppercase font-weight-bold">Contact information</h1>
+            </div>
+            <div class="row">
+
+                <div class="col px-5">
+                    <h3 class="display-6 font-weight-bold mb-4">Leave a message!</h3>
+
+                    <form>
+                        <!-- TEXT FIELD GROUPS -->
+                        <div class="form-group">
+                            <label for="name" class="font-weight-bold">Name</label>
+                            <input class="form-control" type="text" id="name" placeholder="Enter name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="font-weight-bold">Email</label>
+                            <input class="form-control" type="email" id="email" placeholder="Enter email address" required>
+                            
+                        </div>
+
+                        <div class="form-group">
+                            <label for="text" class="font-weight-bold">Message</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Write a message" required></textarea>
+                            
+                        </div>
+                        <button class="btn offset-9 text-white" style="width: 100px; background-color: black;" type="submit">Submit</button>
+                    </form>
+                    
+                </div>
+
+
+            
+                <div class="col px-5" style="margin-top: 65px;">
+                    <div class="row">
+                            <div class="col-1 mr-4">
+                                <p style="letter-spacing: 0.5px;" class="font-weight-bold">Email: </p>
+                            </div>
+                            <div class="col">
+                                <p style="letter-spacing: 0.5px;">Salva_hasan@yahoo.com </p>
+                            </div>   
+                    </div>
+                    <div class="row">
+                        <div class="col-1 mr-4">
+                            <p style="letter-spacing: 0.5px;" class="font-weight-bold">Phone: </p>
+                        </div>
+                        <div class="col">
+                            <p style="letter-spacing: 0.5px;">+92 331 5332084</p>
+                        </div>   
+                    </div>
+                    <div class="row">
+                        <div class="col-1 mr-4">
+                            <p style="letter-spacing: 0.5px;" class="font-weight-bold">Address: </p>
+                        </div>
+                        <div class="col">
+                            <p style="letter-spacing: 0.5px;">House# 10, Street# 9, Sector: H-1, Phase II, Hayatabad, Peshawar </p>
+                        </div>   
+                    </div>
+                    <div class="text-center mt-3">
+                        <span class="mr-3"> <a href="https://www.facebook.com/Salva.hasan"
+                        	style="font-size: 25px; color:black"><i class="fab fa-facebook-f"></i> </a>  </span>
+                        <span class="mr-3"> <a href="https://github.com/SalvaHasan" 
+                        	style="font-size: 25px; color:black"><i class="fab fa-github"></i> </a>     </span>     
+                        <span class="mr-3"> <a href="https://pk.linkedin.com/in/salva-hasan-31840165" 
+                        	style="font-size: 25px; color:black;"><i class="fab fa-linkedin"></i> </a> </span>
+                    </div>
+                   
+                  
+                </div>
+            
+
+            </div>
+            
+           <br>
+           <br>
+           <br>
+
+        </section>
+    </div>
+    </div>
+</main>
+    
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js" integrity="sha256-+Q/z/qVOexByW1Wpv81lTLvntnZQVYppIL1lBdhtIq0=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+<script>
+
+var typed = new Typed('#typing',{
+    strings: [
+        ' Computer Engineer'
+    ],
+    typeSpeed:70,
+    backSpeed:70,
+    loop:true
+
+});
+
+
+</script>
+
+
+</body>
+
+</html>
